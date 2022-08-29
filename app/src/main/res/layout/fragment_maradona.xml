@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Maradona">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Diego Armando Maradona nació el 30 de octubre de 1960 en un barrio humilde llamado Villa Fiorito, en el partido bonaerense de Lanús. Empezó a jugar al fútbol a los 9 años en el equipo infantil Los Cebollitas. En 1976, a los 15 años, fue contratado por Argentinos Juniors, un importante club de primera división. Un año después fue convocado para jugar en la selección nacional. Le decían «el pibe de oro» («el muchacho de oro»)." />
+
+</FrameLayout>

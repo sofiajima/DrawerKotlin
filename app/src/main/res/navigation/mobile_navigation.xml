@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.actividad4.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/maradona"
+        android:name="com.example.actividad4.Maradona"
+        android:label="fragment_maradona"
+        tools:layout="@layout/fragment_maradona" />
+    <fragment
+        android:id="@+id/messi"
+        android:name="com.example.actividad4.Messi"
+        android:label="fragment_messi"
+        tools:layout="@layout/fragment_messi" />
+    <fragment
+        android:id="@+id/cristiano"
+        android:name="com.example.actividad4.Cristiano"
+        android:label="fragment_cristiano"
+        tools:layout="@layout/fragment_cristiano" />
+
+</navigation>
